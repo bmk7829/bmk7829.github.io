@@ -2,110 +2,151 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Manoj Kumar | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- Navbar -->
-  <header>
-    <div class="logo">Manoj</div>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#education">Education</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<!-- NAVBAR -->
+<header>
+  <div class="logo">MK</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-  <!-- Home -->
-  <section id="home" class="hero">
-    <h1>Pothireddy <span>Manoj Kumar</span></h1>
-    <h3>Computer Science Student | Aspiring Software Engineer</h3>
-    <p>Interested in Web Development, AI/ML, and real-world applications</p>
-    <a href="#projects" class="btn">View Projects</a>
-  </section>
-
-  <!-- About -->
-  <section id="about">
-    <h2>About Me</h2>
+<!-- HERO -->
+<section id="home" class="hero-alt">
+  <div class="hero-text">
+    <h1>Manoj Kumar</h1>
+    <h3>Computer Science Student</h3>
     <p>
-      I am a Computer Science undergraduate with strong fundamentals in
-      data structures, backend development, and full-stack applications.
-      I enjoy building practical systems and continuously improving my skills.
+      I build reliable backend systems, full-stack web apps,
+      and AI-powered solutions with clean, scalable code.
     </p>
-  </section>
+    <div class="hero-actions">
+      <a href="#projects" class="btn">See My Work</a>
+      <a href="#contact" class="btn outline">Contact Me</a>
+    </div>
+  </div>
+</section>
 
-  <!-- Skills -->
-  <section id="skills">
-    <h2>Skills</h2>
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <p class="wide-text">
+    I am a Computer Science undergraduate with strong foundations in
+    Data Structures, Object-Oriented Programming, and Web Development.
+    I enjoy turning complex problems into practical, real-world solutions
+    and continuously improving my technical depth.
+  </p>
+</section>
 
-    <h4>Programming</h4>
-    <p>Java, Python, C, JavaScript, SQL</p>
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Skills Overview</h2>
 
-    <h4>Web Technologies</h4>
-    <p>HTML, CSS, JavaScript, React</p>
+  <div class="skills-grid">
+    <div>
+      <h4>Programming</h4>
+      <p>Java, Python, C, JavaScript, SQL</p>
+    </div>
 
-    <h4>Tools</h4>
-    <p>Git, GitHub, VS Code, Eclipse, Postman, Vercel</p>
+    <div>
+      <h4>Web & Backend</h4>
+      <p>HTML, CSS, React, Spring Boot, REST APIs</p>
+    </div>
 
-    <h4>Core Subjects</h4>
-    <p>DSA, DBMS, OS, OOP</p>
-  </section>
+    <div>
+      <h4>Databases & Cloud</h4>
+      <p>MySQL, MongoDB, AWS (Basics)</p>
+    </div>
 
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
+    <div>
+      <h4>Core CS</h4>
+      <p>DSA, DBMS, OS, OOP</p>
+    </div>
+  </div>
+</section>
 
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Selected Projects</h2>
+
+  <div class="project-grid">
     <div class="card">
       <h3>Task Management System</h3>
-      <p><b>Tech:</b> Spring Boot, React, MySQL, JWT</p>
-      <p>Full-stack app with authentication and role-based access.</p>
+      <span>Spring Boot • React • MySQL</span>
+      <p>
+        Role-based task management application with JWT authentication
+        and RESTful backend services.
+      </p>
     </div>
 
     <div class="card">
       <h3>Medical AI Bot</h3>
-      <p><b>Tech:</b> Python, CNN, Flask</p>
-      <p>AI system to detect diseases from medical images.</p>
+      <span>Python • CNN • Flask</span>
+      <p>
+        Deep-learning model for medical image classification
+        deployed as a web application.
+      </p>
     </div>
 
     <div class="card">
       <h3>Compliance Risk Agent</h3>
-      <p><b>Tech:</b> Python, NLP, FastAPI</p>
-      <p>AI agent to analyze documents and identify compliance risks.</p>
+      <span>Python • NLP • FastAPI</span>
+      <p>
+        AI agent that analyzes policy documents
+        and highlights potential compliance risks.
+      </p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Education -->
-  <section id="education">
-    <h2>Education</h2>
+<!-- EDUCATION -->
+<section id="education">
+  <h2>Education</h2>
 
-    <p><b>KL University</b> — B.Tech CSE (2023–2027)</p>
-    <p>CGPA: 8.85 / 10</p>
+  <div class="timeline">
+    <div class="timeline-item">
+      <h4>KL University</h4>
+      <span>2023 – 2027</span>
+      <p>B.Tech in Computer Science — CGPA: 8.85 / 10</p>
+    </div>
 
-    <p><b>Narayana Junior College</b> (2021–2023)</p>
-    <p>Percentage: 90%</p>
+    <div class="timeline-item">
+      <h4>Narayana Junior College</h4>
+      <span>2021 – 2023</span>
+      <p>Intermediate — 90%</p>
+    </div>
 
-    <p><b>Narayana EM High School</b> (2020–2021)</p>
-    <p>Percentage: 98%</p>
-  </section>
+    <div class="timeline-item">
+      <h4>Narayana EM High School</h4>
+      <span>2020 – 2021</span>
+      <p>SSC — 98%</p>
+    </div>
+  </div>
+</section>
 
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: 2300033532cseh1@gmail.com</p>
-    <p>Phone: +91 7670875550</p>
-    <p>GitHub: github.com/bmk7829</p>
-    <p>LinkedIn: linkedin.com/in/your-profile</p>
-  </section>
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Get In Touch</h2>
+  <p>Email: <b>2300033532cseh1@gmail.com</b></p>
+  <p>Phone: <b>+91 7670875550</b></p>
+  <p>GitHub: <b>github.com/bmk7829</b></p>
+  <p>LinkedIn: <b>linkedin.com/in/your-profile</b></p>
+</section>
 
-  <footer>
-    © 2026 Manoj Kumar
-  </footer>
+<footer>
+  © 2026 Manoj Kumar
+</footer>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

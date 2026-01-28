@@ -1,4 +1,12 @@
-// Highlight active navbar link on scroll (optional enhancement)
+// Back to top
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+
+// Highlight active navbar link on scroll
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll("nav a");
 
